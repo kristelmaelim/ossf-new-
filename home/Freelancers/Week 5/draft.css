@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: firstFont;
+    src: url(hmd.ttf);
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(coco.ttf);
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url(LaObrige.otf);
+}
+
+@font-face {
+    font-family: fourthFont;
+    src: url(LaObrige.otf);
+}
+
+.container {
+    background-image: url(neutralbackground_2.png);
+    background-color: transparent;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: thirdFont;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: right;
+    font-weight: bold;
+    font-style: italic;
+    position: fixed;
+    z-index: 1;
+}
+
+li {
+    transition: 0.5s;
+}
+
+ul:hover li {
+    filter: blur(5px);
+}
+
+ul li:hover {
+    filter: blur(0px);
+}
+
+#home, #services, #about, #contacts, #btn {
+    max-width: 10%;
+    height: auto;
+}
+
+.content_1 {
+    padding: 2%; /* Use relative padding */
+}
+
+.content_2 {
+    height: 50vh; /* Use relative height */
+    width: 80%; /* Use relative width */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column; /* Adjust layout */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#text1 {
+    font-size: 20vw; /* Use relative font size */
+    font-size: 5vh;
+    color: white;
+    font-weight: bolder;
+    font-family: secondFont;
+}
+
+#text2 {
+    font-size: 10vw; /* Use relative font size */
+    font-size: 5vh; 
+    color: white;
+    font-weight: bolder;
+    font-family: thirdFont;
+}
+
+#subtext {
+    font-size: 5vw; /* Use relative font size */
+    font-size: 3vh;
+    color: white;
+    font-family: firstFont;
+    font-style: italic;
+}
+
+#btn {
+    border: none;
+    margin: 5px auto; /* Auto margins to center horizontally */
+    font-family: Arial, sans-serif; /* Use web-safe font */
+    font-weight: bold;
+    font-size: 1.5vw; /* Use relative font size */
+    max-width: 70%; /* Add a max-width as a percentage of the parent container */
+    display: block; /* Makes it a block-level element for auto horizontal centering */
+}
+
+#logo {
+    max-height: 150px; /* Add a max-height */
+    max-width: 150px; /* Add a max-width */
+    outline: none; /* Adjust outline */
+}
+
+.main {
+    display: flex;
+    flex-direction: column; /* Adjust layout */
+    padding: 0;
+    background-image: url(neutralbackground2.png);
+    background-color:; /* Add a background color */
+    background-blend-mode: multiply;
+}
+
+#btn2 {
+    position: absolute;
+    top: 92%; /* Use relative position */
+    right: 3%; /* Use relative position */
+    width: 10%; /* Use relative width */
+    padding-top: 10%; /* Use relative padding */
+}
+
+.content {
+    height: auto; /* Allow height to adjust */
+    display: flex;
+    flex-wrap: wrap; /* Handle wrapping on smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex: 1; /* Allow flexible width */
+    padding: 1%; /* Use relative padding */
+    text-align: center;
+}
+
+.card1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.card:hover .card1 {
+    opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 100%; /* Adjust for smaller screens */
+    }
+}
+
+.description {
+    color: blue; /* Change color */
+    font-size: 1.2em; /* Use relative font size */
+}

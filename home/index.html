@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="home.css">
+	<link rel="icon" type="image/x-icon" href="ossflogo.png">
+	<title>Opportunity Space for Student Freelancers</title>
+
+
+</head>
+
+
+<body>
+
+	<div class="container1 appear-on-scroll">
+		<div class="landing-page">
+			<nav>
+				<ul class="navbarver">
+					<li><a href="SignIn/signin.html">Log in to your Account</a></li>
+					<li><a href="HireFreelancer/hire.html">Hire a Freelancer</a></li>
+					<li><a href="BecomeFreelancer/becomefreelancer.html">Become a Freelancer</a></li>
+					<li><p class="tagline">“Craft your SUCCESS: tailor your WORK to your SCHEDULE"</p></li>
+					<a href="#footer-section" class="button-link"><button class="button">Learn More</button></a>
+					<img src="Elements/ossflogo.png" id="logo" height="100px" width="100px">
+				</ul>
+
+				<ul class="navbarhor">
+					<li style="float:right"><a class="act" href="#socials">Contacts</a></li>
+					<li style="float:right"><a class="act" href="Help/help.html">Help</a></li>
+					<li style="float:right"><a class="act" href="#footer-section">About</a></li>
+				</ul>
+
+
+				<div class="slideshow-container">
+
+					<div class="mySlides fade">
+						<a href="Week 5\index.html"><img src="Profiles/profile1.png" style="width:100%" id="profile1"></a>
+						<!-- <div class="text"><a href="https://www.facebook.com/">Caption Text</a></div> -->
+					</div>
+
+					<div class="mySlides fade">
+						<a href="Week 5\index.html"><img src="Profiles/profile2.png" style="width:100%" id="profile1"></a>
+						<!-- <div class="text">Caption Two</div> -->
+					</div>
+
+					<div class="mySlides fade">
+						<a href="Week 5\index.html"><img src="Profiles/profile3.png" style="width:100%" id="profile1"></a>
+						<!-- <div class="text">Caption Three</div> -->
+					</div>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+
+				<script>
+					let slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+						let i;
+						let slides = document.getElementsByClassName("mySlides");
+						let dots = document.getElementsByClassName("dot");
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";  
+						}
+						slideIndex++;
+						if (slideIndex > slides.length) {slideIndex = 1}    
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex-1].style.display = "block";  
+							dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</nav>
+</div>
+
+<div class="page2-content appear-on-scroll">
+	<p class="page2header">POPULAR SERVICES</p>
+
+	<div class="scroll-container">
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service1.png" alt="Cinque Terre" width="250px" height="350px" id="services"></a>
+		</div>
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service2.png" alt="Cinque Terre" wwidth="250px" height="350px" id="services"></a>
+		</div>
+		
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service3.png" alt="Cinque Terre" wwidth="250px" height="350px" id="services"></a>
+		</div>
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service4.png" alt="Cinque Terre" width="250px" height="350px" id="services"></a>
+		</div>
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service5.png" alt="Cinque Terre" wwidth="250px" height="350px" id="services"></a>
+		</div>
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service6.png" alt="Cinque Terre" wwidth="250px" height="350px" id="services"></a>
+		</div>
+		
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service7.png" alt="Cinque Terre" wwidth="250px" height="350px" id="services"></a>
+		</div>
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service8.png" alt="Cinque Terre" width="250px" height="350px" id="services"></a>
+		</div>
+
+		<div class="image-container">
+			<!-- <button class="bookmark-btn" onclick="bookmarkService(1)"><img src="Elements/bookmark.png" width="100px" height="100px"></button> -->
+			<a href="HireFreelancer\Freelancers\freelancers.html"><img src="Services/service5.png" alt="Cinque Terre" wwidth="250px" height="350px" id="services"></a>
+		</div>
+
+
+
+	</div>
+
+	<script>
+    function bookmarkService(serviceId) {
+        alert("Service " + serviceId + " bookmarked!");
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+        var appearElements = document.querySelectorAll('.appear-on-scroll .image-container');
+        var options = {
+            threshold: 0.5,
+        };
+
+        var observer = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(function (entry, index) {
+                if (entry.isIntersecting) {
+                    setTimeout(function () {
+                        entry.target.classList.add('appear');
+                    }, index * 200);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        appearElements.forEach(function (element) {
+            observer.observe(element);
+        });
+    });
+</script>
+
+</div>
+
+<div class="footer appear-on-scroll">
+    <div class="footer-section">
+        <!-- <h2>Service 1</h2>
+           <p>Description of service 1 goes here. You can provide details about the services you offer in this section.</p> -->
+        <video class="videofeatures" poster="Videos/video1th.png" controls style="object-position: center;">
+            <source src="Videos/video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="footer-section">
+        <!-- <h2>Service 2</h2>
+            <p>Description of service 2 goes here. Add relevant information to help users understand the range of your freelancing services.</p> -->
+    </div>
+
+    <div class="footer-section" id="footer-section">
+        <h1>Unlock Your Potential: Thrive in the Student Freelancer Universe!</h1>
+        <p id="viddescription">○ Diverse Freelance Opportunities<br>
+            ○ Skill Development Programs<br>
+            ○ Project Matching<br>
+            ○ Professional Networking<br>
+            ○ Resource Hub<br>
+            ○ Feedback and Reviews<br>
+            ○ Career Guidance</p>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const elementsToAnimate = document.querySelectorAll('.appear-on-scroll');
+
+            const appearOptions = {
+                threshold: 0.5,
+            };
+
+            const appearOnScroll = new IntersectionObserver(function (
+                entries,
+                appearOnScroll
+            ) {
+                entries.forEach((entry) => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    } else {
+                        entry.target.classList.add("appear");
+                        appearOnScroll.unobserve(entry.target);
+                    }
+                });
+            },
+                appearOptions);
+
+            elementsToAnimate.forEach((element) => {
+                appearOnScroll.observe(element);
+            });
+        });
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+        var appearElements = document.querySelectorAll('.appear-on-scroll .footer-section');
+        var options = {
+            threshold: 0.5,
+        };
+
+        var observer = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, options);
+
+        appearElements.forEach(function (element) {
+            observer.observe(element);
+        });
+    });
+    </script>
+</div>
+
+<footer class="footer">
+    <div class="footer-section">
+        <h3>Categories</h3>
+        <p>Graphic Design<br>
+            Social Media Management<br>
+            Social Media Marketing<br>
+            Email Marketing<br>
+            Website Development</p>
+    </div>
+
+    <div class="footer-section">
+        <h3>About</h3>
+        <p>Careers<br>
+            Press & News<br>
+            Partnerships<br>
+            Privacy Policy<br>
+            Terms of Service<br>
+            Intellectual Property Claims</p>
+    </div>
+
+    <div class="footer-section">
+        <h3>Community</h3>
+        <p>Customer Success Stories<br>
+            Community Hub<br>
+            Forum<br>
+            Events<br>
+            Blog<br>
+            Influencers<br>
+            Affiliates</p>
+    </div>
+
+    <div class="footer-section">
+        <h3>Support</h3>
+        <p>Help & Support<br>
+            Trust & Safety<br>
+            Selling on OSSF<br>
+            Buying on OSSF<br>
+            Fiverr Guides</p>
+    </div>
+</footer>
+
+<div class="socials" #socials>
+<a href="ig.gif"><img src="Socials/ig.png" id="socials" height="100px" width="100px"></a>
+<a href="fb.gif"><img src="Socials/fb.png" id="socials" height="100px" width="100px"></a>
+<a href="twitter.gif"><img src="Socials/tw.png" id="socials" height="100px" width="100px"></a>
+<a href="pinterest.gif"><img src="Socials/pt.png" id="socials" height="100px" width="100px"></a><br>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+
+  font-family: firstFont;
+  src: url(hmd.ttf);
+
+}
+
+@font-face {
+
+  font-family: secondFont;
+  src: url(coco.ttf);
+
+}
+
+@font-face {
+
+  font-family: thirdFont;
+  src: url(LaObrige.otf);
+
+}
+
+.container {
+	background-color:;
+	display: flex;
+	grid-gap: -100px;
+	padding: 0px 0px 200px 0px;
+	background-image: url(igbg.png);
+	height: 700px;
+	width: 1500px;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.profile {
+	background-color:;
+	display: flex;
+	grid-gap: 100px;
+	padding: 0px 0px 50px 0px;
+	width: 380px;
+}
+
+.logo {
+	background-color:;
+	grid-gap: 100px;
+	padding: 0px 0px 50px 0px;
+	width: 550px;
+}
+
+.feed {
+	background-color:;
+	grid-gap: -100px;
+	padding: 0px 0px 0px 0px;
+	height: 400px;
+}

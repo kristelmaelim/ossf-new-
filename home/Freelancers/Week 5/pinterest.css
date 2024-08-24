@@ -1,0 +1,57 @@
+@font-face {
+
+  font-family: firstFont;
+  src: url(hmd.ttf);s
+
+}
+
+@font-face {
+
+  font-family: secondFont;
+  src: url(coco.ttf);
+
+}
+
+@font-face {
+
+  font-family: thirdFont;
+  src: url(LaObrige.otf);
+
+}
+@media only screen and (min-width: 500px) {
+  
+  .card {
+    height: 50px;
+    width: 50px;
+    display: block;
+  }
+}
+
+.container {
+	display: flex;
+	grid-gap: -100px;
+	padding: 100px 0px 50px 0px;
+	background-image: url(neutralbackground_2.png);
+	height: 650px;
+	width: 1600px;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.container div {
+
+	background-color:;
+	height: 500px;
+	width: 500px;
+	margin-top: 
+	
+}
+
+#card {
+	padding: -40px -30px 0px -30px;
+	height: 700px;
+	width: 400px;
+	float: right;
+	display: inline;
+
+}

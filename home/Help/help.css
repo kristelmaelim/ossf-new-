@@ -1,0 +1,158 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+@font-face {
+
+  font-family: montserrat;
+  src: url(Fonts/montserrat.ttf);
+
+}
+
+
+@font-face {
+
+  font-family: courgette;
+  src: url(Fonts/courgette.ttf);
+
+}
+
+@font-face {
+
+  font-family: ahganirya;
+  src: url(Fonts/ahganirya.ttf);
+
+}
+
+h3 {
+  text-align: center;
+  font-family: ahganirya;
+  letter-spacing: 3px;
+  font-size: 30px;
+  padding: -10px;
+  margin: -10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: montserrat;
+
+}
+
+body {
+  background-color: #F3F4E7;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color:#314528;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+label {
+  font-family: montserrat;
+  font-weight: bold;
+  color: white;
+}
+
+#logo {
+  position: absolute;
+  top: 10px; /* Adjust the top position as needed */
+  right: 20px; /* Adjust the right position as needed */
+}
+
+h3 {
+  text-align: center;
+  font-family: ahganirya;
+  letter-spacing: 3px;
+  font-size: 30px;
+  padding: -10px;
+  margin: -10px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: montserrat;
+}
+
+body {
+  background-color: #F3F4E7;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: montserrat;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #314528;
+  padding: 20px;
+  margin-top: 30px;
+  animation: fadeIn 1s ease-in-out; /* Apply the fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+label {
+  font-family: montserrat;
+  font-weight: bold;
+  color: white;
+}
+
+#logo {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}

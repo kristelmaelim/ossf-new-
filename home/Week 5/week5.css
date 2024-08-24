@@ -1,0 +1,406 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+
+  font-family: firstFont;
+  src: url(hmd.ttf);
+
+}
+
+@font-face {
+
+  font-family: secondFont;
+  src: url(coco.ttf);
+
+}
+
+@font-face {
+
+  font-family: thirdFont;
+  src: url(lg.otf);
+
+}
+
+@font-face {
+
+  font-family: fourthFont;
+  src: url(qanoar.otf);
+
+}
+.container {
+    background-image: url(neutralbackground_2.png);
+    background-color: ;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    background-blend-mode: multiply;
+}
+
+body::-webkit-scrollbar {
+
+	display: none;
+
+}
+
+ul, li, a {
+
+	text-decoration: none;
+	list-style: none;
+	color: black;
+	font-family: thirdFont;
+	display: inline;
+	padding: -20px;
+	font-size: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+	padding-left: 90px;
+	padding-right: -40px;
+	margin: -35px;
+
+}
+
+nav {
+
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+	position: fixed;
+	z-index: 1;
+	
+
+}
+
+li {
+
+	transition: .5s;
+}
+
+ul:hover li {
+	filter: blur(5px);
+}
+
+ul li:hover {
+	filter: blur(0px);
+}
+
+#home, #services, #about, #contacts, #btn {
+    max-width: 7%;
+    height: auto;
+}
+
+.content_1 {
+
+	padding: 20px;
+}
+
+.content_2 {
+
+	height: 500px;
+	width: 850px;
+	background-color:;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+#text1 {
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+	font-family: secondFont;
+
+}
+
+#text2 {
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+	font-family: thirdFont;
+}
+
+#subtext {
+	font-size: 30px;
+	color: white;
+	font-family: firstFont;
+	font-style: italic;
+
+}
+
+#btn {
+	border: none;
+	margin-top: 5px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 500px;
+	margin-left: 40px;
+
+
+}
+
+#logo {
+	height: 150px;
+	width: 150px;
+	outline-color: black;
+
+}
+
+.main {
+	display: flex;
+	padding: 0px;
+	background-image: url(neutralbackground2.gif);
+	height: 1000px;
+	background-color: ;
+	background-blend-mode: multiply;
+	background-attachment: fixed;
+}
+
+#btn2 {
+	position: absolute;
+  	top: 920px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+}
+
+.content {
+	height: auto; /* Allow height to adjust */
+    display: flex;
+    flex-wrap: wrap; /* Handle wrapping on smaller screens */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  flex: 1; /* Allow flexible width */
+    padding: 1%; /* Use relative padding */
+    text-align: center;
+  
+}
+
+.content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card1 {
+  opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.card:hover .card1 {
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 100%; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+.card {
+    width: 100%;
+    color: blue;
+  }
+@media (min-width: 300px) {}
+.description {
+	color: blue;
+	font-size: 20px;
+  }
+}
+
+.cardtext {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cardtext1 {
+  color: white;
+  font-size: 16px;
+  font-family: thirdFont;
+  padding: 16px 32px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.card:hover .cardtext {
+  opacity: 1;
+}
+
+.btn2 {
+	border: none;
+	background-color: #b3cee5;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 50px;
+	transform: translate(175%, -75%);
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.section2 {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	font-family: secondFont;
+	display: inline;
+	padding-bottom: 30px;
+	font-size: 20px;
+	padding-top: 20px;
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+	height: 200px;
+	width: 20px;
+}
+
+#card2 {
+	margin-top: 40px;
+	margin-bottom: px;
+}
+
+.description {
+	font-size: 50px;
+	font-family: firstFont;
+	color: white;
+	font-weight: normal;
+}
+
+#logo {
+	position: fixed; bottom: -100px; right: -100px;
+}
+
+.content_3 {
+    padding: 0;
+    background-image: url(background3.gif);
+    height: 110vh;
+    background-color:;
+    background-blend-mode: multiply;
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-attachment: scroll;
+}
+
+/* Media query for screens smaller than 600px (typical phone size) */
+@media screen and (max-width: 600px) {
+    .content_3 {
+        height: auto; /* Allow the background to adjust its height based on content */
+        background-size: contain; /* Adjust the background size for smaller screens */
+    }
+}
+
+
+.intro {
+	display: flex;
+	justify-content: left;
+  	align-items: left;
+  	text-align: left;
+  	padding-top: -500px;
+}
+
+#intro_card {
+	float: left;
+	width: 380px
+  	padding: 10px;
+ 	flex: 33.33%;
+  	position: relative;
+  	height: 450px;
+  	justify-content: left;
+  	align-items: left;
+  	text-align: left;
+  	padding-top: 300px;
+  	margin-left: 700px;
+  	
+}
+
+.intro_text {
+	z-index: 1;
+}
+
+footer {
+            display: block;
+            padding: 20px;
+            background-color: gray;
+            display: flex;
+            flex-direction: column; /* Stack content vertically on smaller screens */
+            justify-content: center;
+            align-items: center;
+            background-image: url('neutralbackground2.png');
+            background-size: cover;
+            text-align: center;
+            background-attachment: fixed;
+        }
+
+        .socialstable {
+            max-width: 600px; /* Set a maximum width for the social icons table */
+            width: 100%;
+            margin-top: 20px; /* Add spacing between the social icons and contact information */
+        }
+
+        #ig {
+            width: 100px; /* Adjust the size of the social icons */
+            height: 100px;
+            margin: 20px; /* Add spacing around the social icons */
+        }
+
+        td {
+            text-align: center;
+            font-family: fourthFont;
+            width: 30px;
+        }
+
+        #ci {
+            font-family: firstFont;
+            color: white;
+            font-size: 30px; /* Adjust the font size */
+            margin-top: 20px; /* Add spacing between the social icons and contact information */
+        }
+
+        th {
+            transition: .5s;
+
+        }
+
+        tr:hover th {
+            filter: blur(5px);
+        }
+
+        tr th:hover {
+            filter: blur(0px);
+        }
+
+        @media screen and (max-width: 600px) {
+            .socialstable {
+                display: block; /* Change to a stacked layout on smaller screens */
+            }

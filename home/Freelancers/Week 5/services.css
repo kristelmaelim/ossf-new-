@@ -1,0 +1,50 @@
+@font-face {
+
+  font-family: firstFont;
+  src: url(hmd.ttf);s
+
+}
+
+@font-face {
+
+  font-family: secondFont;
+  src: url(coco.ttf);
+
+}
+
+@font-face {
+
+  font-family: thirdFont;
+  src: url(LaObrige.otf);
+
+}
+
+
+.container {
+	display: flex;
+	grid-gap: -100px;
+	padding-top: 100px;
+	background-image: url(neutralbackground_2.png);
+	height: 650px;
+	width: 1600px;
+	background-color: gray;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.container div {
+
+	background-color:;
+	height: 500px;
+	width: 500px;
+	padding-top: 50px;
+	
+}
+
+#text {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-family: firstFont;
+	margin-top: -40px;
+}
